@@ -366,6 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765925f7eb163244695aee19ea8b84f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 1269722238}
 --- !u!1001 &190241607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -609,6 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765925f7eb163244695aee19ea8b84f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 1269722238}
 --- !u!1001 &334657204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1375,6 +1377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765925f7eb163244695aee19ea8b84f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 1269722238}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3277,6 +3280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f72f5e3d96af1f448fe659f0a89cc7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
 --- !u!4 &1412000466
 Transform:
   m_ObjectHideFlags: 0
@@ -3655,6 +3659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765925f7eb163244695aee19ea8b84f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 1269722238}
 --- !u!1001 &1584249539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3804,6 +3809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765925f7eb163244695aee19ea8b84f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 1269722238}
 --- !u!1 &1641123069
 GameObject:
   m_ObjectHideFlags: 0
@@ -3854,6 +3860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765925f7eb163244695aee19ea8b84f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 1269722238}
 --- !u!1001 &1697546475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4484,6 +4491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765925f7eb163244695aee19ea8b84f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 1269722238}
 --- !u!1 &1945515339
 GameObject:
   m_ObjectHideFlags: 0
