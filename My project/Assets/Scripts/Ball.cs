@@ -7,10 +7,11 @@ public class Ball : MonoBehaviour
     public Rigidbody RB;
     public float JumpForce;
     public GameObject SplashPrefab;
+    private GameManager GM;
     // Start is called before the first frame update
     void Start()
     {
-        
+        GM = GameObject.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
@@ -36,10 +37,12 @@ public class Ball : MonoBehaviour
         else if(materialName == "PlatformDanger (Instance)")
         {
             //game over
+            GM.RestartGame();
         }
         else if(materialName == "LastRing (Instance)")
         {
             // level passed
+            Debug.Log("Final ring!");
         }
     }
 }

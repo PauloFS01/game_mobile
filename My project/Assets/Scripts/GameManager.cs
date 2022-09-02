@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    public void GameScore(int ringScore)
+    public void IncreaseGameScore(int ringScore)
     {
         score += ringScore;
         scoreText.text = score.ToString();

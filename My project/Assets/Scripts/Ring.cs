@@ -5,10 +5,11 @@ using UnityEngine;
 public class Ring : MonoBehaviour
 {
     public Transform Ball;
+    private GameManager GM;
     // Start is called before the first frame update
     void Start()
     {
-        
+        GM = GameObject.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
@@ -17,6 +18,7 @@ public class Ring : MonoBehaviour
         if(transform.position.y +17 >= Ball.transform.position.y)
         {
             Destroy(gameObject);
+            GM.IncreaseGameScore(10);
         }
         
     }
